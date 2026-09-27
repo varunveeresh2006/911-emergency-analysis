@@ -1,27 +1,42 @@
-# 911 Emergency Call Analysis
+# 🚨 911 Emergency Call Analysis
 
-## Objective
-Analyze emergency calls to identify patterns in call volume,
-emergency types, and temporal trends.
+## 📌 Overview
 
-## Tools Used
+This project analyzes 911 emergency call data to identify patterns in emergency call volume, emergency types, time trends, and geographic distribution.
+
+The project uses Python-based data analysis and visualization techniques to extract meaningful insights from the dataset.
+
+## 🎯 Objectives
+
+- Analyze emergency call patterns
+- Identify the most common emergency categories
+- Study call volume across different times
+- Explore monthly and seasonal trends
+- Analyze geographic distribution of emergency calls
+- Visualize important patterns and findings
+
+## 🛠️ Technologies Used
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- VS Code
+- Jupyter Notebook
 
-## Key Findings
+## 📂 Project Structure
 
-### Most Common Emergency
-EMS accounted for the highest number of calls.
-
-### Peak Hours
-Call volume peaked during afternoon and evening hours.
-
-### Seasonal Trends
-Certain months showed increased call activity.
-
-### Geographic Insights
-A small number of zip codes generated a large share of calls.
+```text
+911-emergency-analysis/
+│
+├── charts/
+├── notebooks/
+│   └── analysis.ipynb
+│
+├── scripts/
+│   ├── load_data.py
+│   └── analysis.py
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
